@@ -1,0 +1,1 @@
+var mundo = window.prompt('Olá, Mundo!')
