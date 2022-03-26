@@ -22,6 +22,10 @@ function calcular() {
     }
 
 
-    res.innerHTML = `Calculando a média final de ${nome}. As notas obtidas foram ${nota1} e ${nota2}. A média final será de ${media}. A mensagem que temos é: ${mensagem} `
-
+    res.innerHTML = `Calculando a média final de <mark> ${nome} </mark>. <br> 
+    As notas obtidas foram <mark> ${nota1} </mark> e <mark> ${nota2} </mark>. <br> 
+    A média final será de <mark> ${media} </mark>. <br> 
+    A mensagem que temos é: <strong style=color:'red';> ${mensagem} </strong>`
+    res.style.lineHeight = '50px';
 }
+
